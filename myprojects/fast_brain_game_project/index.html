@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+ <div class="game-area">
+    <div class="area-1">
+        <h2 id="timer">40</h2>
+    </div>
+    <div class="area-2">
+        <div class="test">
+            <h1>
+                <span id="num1">4</span>
+                <span id="num2">20</span>
+                <span id="num3">2</span>
+                <span id="num4">3</span><br>
+                <p id="result">Result : 100</p>
+                <p><span id="score"></span></p> 
+            </h1>
+        </div>
+        <div class="player-area">
+            <p><span id="lenght-box">0</span>/22</p>
+            <textarea
+             id="user-calculation"
+              onkeyup="calculated()" type="number"
+placeholder="0 * 0 = 0
+0 + 0 = 0
+0 / 0 = 0
+0 - 0 = 0" maxlength="22"></textarea>
+            <div class="calculation" id="calc">
+            </div>
+        </div>
+    </div>
+ </div>
+</body>
+</html>

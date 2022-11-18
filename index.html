@@ -1,0 +1,400 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@2.saint Portfolio</title>
+    <meta name="poltfolio" content="special poltfolio">
+    <link rel="stylesheet" href="style.css">
+    <meta title="@2.saint portfo">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section class="sect-1">
+        <div class="header">
+            <h1><i class="fa-solid fa-user-secret"></i></i>2.saint</h1>
+            <nav class="menu">
+                <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="#project"><i class="fa-solid fa-diagram-project"></i>Projects</a>
+                <a href="#skills"><i class="fa-solid fa-user-tie"></i>Skills</a>
+            </nav>
+        </div>
+    </section>
+    <section class="sect" id="home">
+        <div class="container">
+            <div class="intro">
+             
+                <p><span class="less">&#60;p&#62;</span>
+                     <br>
+                 <span class="coding"><span class="greating">hello everyone :)</span></span>
+                    <br>
+                     <span class="greater"> 
+                        &#60;/p&#62;
+                    </span>
+                     </p>
+                <img src="img/responsive.jpg" alt="">
+            </div>
+                <div class="text-intoducting">
+                    <h1> Welcome, </h1>
+                    <p>
+                        My name is Toussaint Iradukunda and I have 18years old I am from Burundi.
+                        I started web development in 2019, and i have 3 years of exeperience.
+                        On this portfolio you gone find some of my projects and my skills.
+
+
+                    </p>
+
+                    <p>
+                        For starting my web development career, I started
+                         by learning html and CSS and after that I learned
+                          JavaScript .On viewing some of my Projects you
+                           will know more about my skills in responsive web
+                            design and more things. Thanks!
+                    </p>
+
+                </div>
+        </div>
+    </section>
+</section>
+<section class="sect-3" id="skills">
+    <div class="skills">
+        <h1><i class="fa-solid fa-user-tie"></i>Skills</h1>
+        <div class="lang-skills">
+            <abbr title="60%">
+             <div class="lang-progress">
+                <div class="js">Javascript</div>
+             </div>
+            </abbr>
+
+            <abbr title="87%">
+             <div class="lang-progress">
+                <div class="html">Html</div>
+             </div>
+            </abbr>
+
+            <abbr title="95%">
+             <div class="lang-progress">
+                <div class="css">Css</div>
+             </div>
+            </abbr>
+        </div>
+    </div>
+</section>
+    <section class="sect" >
+        <div class="projects" id="project">
+            <h1><i class="fa-solid fa-diagram-project"></i>Projects</h1>
+            <div class="grid-projects">
+                <a href="myprojects/blog_website/index.html" target="_blank"><div class="proj1"><img src="img/proj5.jpg" alt=""></div></a>
+                <a href="myprojects/business_online_home_page_website/index.html" target="_blank"><div class="proj2"><img src="img/proj3.jpg" alt=""></div></a>
+                <a href="myprojects/fast_brain_game_project/index.html" target="_blank"><div class="proj3"><img src="img/math_game.jpg" alt=""></div></a>
+                <a href="myprojects/megaflix_movies_home_page_website/home.html" target="_blank"><div class="proj4"><img src="img/proj2.jpg" alt=""></div></a>
+            </div>
+        </div>
+   
+<section>
+    <div class="current-projects">
+        <h1>Password Generator</h1>
+        <div class="content">
+            <p>
+                To create a password generator, first you have to create an index.html.
+                 File inside the file you have to create a form and to make sure, that
+                  the user can enter any type of password such us (lowercase letters, up case letters, numbers and symbols).
+                   In this tutorial we gone use the select tag to arrow the user to enter the length of any type of character and a generate
+                    button for generate the new password.
+            </p>
+        </div>
+        <div class="code-box">
+            <p>1.index.html</p>
+            <textarea name="" disabled id="" cols="30" rows="10">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <!-- upcase letters -->
+        <label for="">Upcase letters :</label>
+        <select name="" id="setedlowercasevalue">
+            <option>0</option>
+            <option>1</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+        </select>
+        <!-- lower case latters -->
+        <label for="">Lowercase letters :</label>
+        <select name="" id="seteduprcasevalue">
+            <option>0</option>
+            <option>1</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+        </select>
+        <!-- numbers -->
+        <label for="">Numbers :</label>
+        <select name="" id="setednumber">
+            <option>0</option>
+            <option>1</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+
+        <!-- symbols -->
+        <label for="">symbols :</label>
+        <select name="" id="setedsymbols">
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+        </select>
+         <!-- generate -->
+        <div class="genrate-box">
+            <button onclick="generate()">Generate</button>
+            <p id="newpassword" onclick="copy()">***********</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+            </textarea>
+        </div>
+
+
+
+        <div class="content">
+            <p>
+                After create the index.html file you have to create a style.css file. 
+                Inside this file is just to input the style for the html document
+                 such us (form, select, labels and paragraph). Warning! If the user 
+                 click on the new password, the cursor will automatically select 
+                 the new password. You will now more about this functionality 
+                 in the next paragraph.
+            </p>
+        </div>
+        <div class="code-box">
+            <p>2.style.css</p>
+            <textarea name="" disabled id="" cols="30" rows="10">
+                *{
+                    margin: 0;
+                    padding: 0;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+                body{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .form{
+                padding: 20px;
+                width: 400px;
+                box-shadow: 0 0px 12px rgba(0, 0, 0, 0.288);
+                border-radius: 5px;
+                }
+                select{
+                    width: 100%;
+                    border: solid 1px rgb(3, 141, 255);
+                    padding: 10px;
+                    color: rgb(3, 141, 255);
+                    border-radius: 5px;
+                    outline: none;
+                    margin: 10px;
+                }
+                label{
+                    font-size: 1.2rem;
+                }
+                .form > .genrate-box{
+                padding: 10px;
+                }
+                .form > .genrate-box > button{
+                    padding: 10px;
+                    border: 0;
+                    background-color: black;
+                    color: white;
+                    cursor: pointer;
+                    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.527);
+                }
+                .form > .genrate-box > button:nth-child(even){
+                    background-color: red;
+                }
+                .form > .genrate-box > p{
+                    text-align: center;
+                    padding: 20px;
+                    border: solid 1px rgb(3, 141, 255);
+                    margin-top: 20px;
+                    letter-spacing: 2;
+                    user-select: all;
+                }
+            </textarea>
+        </div>
+
+
+
+        <div class="content">
+            <p>
+                Finally, you have to create a script.js file.
+                 Inside this file, you have to get data from the html form
+                  and after you have to create an array. Inside the array, 
+                  you have to enter all kind of data such us (lower case letters, up case letters, numbers and symbols). 
+                  By using this method, the user can select the length of the characters in the html form and JavaScript
+                   will slice data inside the array and print the new password. before printing the new password JavaScript 
+                   sort the array data as he want and numbers are converted in MS(milliseconds) so that if the user generate
+                    a new password , and click  again to the generate button the password will be automatically changed because
+                     it use MS(milliseconds) counting. Lastly, if you click of the new password it automatically copied because 
+                     the text has been select by the cursor.    
+            </p>
+        </div>
+        <div class="code-box">
+            <p>3.script.js</p>
+            <textarea  disabled>
+                //created in strict mode
+                "use stict";
+             
+                //caching errors
+                 try{
+                 function generate(){   
+                 let lowercase , upcase , numbers , symbols , newpwd;
+                 lowercase = document.getElementById("setedlowercasevalue").value;
+                 upcase = document.getElementById("seteduprcasevalue").value;
+                 numbers = document.getElementById("setednumber").value;
+                 symbols = document.getElementById("setedsymbols").value;
+                 newpwd = [
+                     //lowercaseletters
+                     "fedcbajlkhigpmonqtrusxvzyw",
+                     //upcaseletters
+                     "lonfdqtrbvcjzywemkhigpxusa",
+                     //symbols
+                     "_@$[+%]£§+-*)¬!^&(?"
+                 ];
+                     var lowercasevalue , upcasevalue , numbersvalue , symbolsvalue , sorter , pwd , ms , timer , addnumber;
+                     //setting password updater
+                     timer = new Date();
+                     ms = timer.getTime().toString();
+                     addnumber = 9 + Number(numbers);
+                     numbersvalue = ms.slice(9 , addnumber);
+             
+                     //setting lowercase 
+                     lowercasevalue = newpwd[0].slice(0 , lowercase);
+             
+                     //setting upcase
+                     upcasevalue = newpwd[1].slice(0 , upcase);
+                     
+                     //setting symbols
+                     symbolsvalue = newpwd[2].slice(0 , symbols);
+             
+                     //sorting values
+                     sorter = [
+                         lowercasevalue ,
+                         upcasevalue.toUpperCase() , 
+                         numbersvalue ,
+                         symbolsvalue ,
+                     ];
+                     pwd = sorter.sort().join("");
+             
+                     //generating a new password
+                     
+                     document.getElementById("newpassword").innerHTML = pwd;
+                     
+                     
+                     
+                     //saving data in the console
+                     console.log(pwd);
+                     }
+                     //setting copy system
+                     function copy(){
+                         document.execCommand("copy");
+                         alert("password copied")
+                     }
+                     //diplaying errors
+                 }catch(erros){
+                     console.log(erros.message);
+                 }
+            </textarea>
+        </div>
+        
+        <div class="content">
+            <p>Run the code here : 
+                <a href="myprojects/pwd_generator/index.html" target="_blank">Run</a>
+            </p>
+            <p>Dwonload src code here : 
+                <a href="https://github.com/Iradukunda-toussaint/password-generator.git" target="_blank">https://github.com/Iradukunda-toussaint/password-generator.git</a>
+            </p>
+            </div>
+    </div>
+   
+    
+</section>
+<section class="footer">
+    <div class="adress">
+        <p> copyright 2022</p>
+        <a target="_blank" href="https://www.facebook.com/iradukunda.toussaintyk">
+            <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a target="_blank" href="https://github.com/Iradukunda-toussaint">
+            <i class="fa-brands fa-square-github"></i>
+        </a>
+    </div>
+</section>
+</body>
+</html>

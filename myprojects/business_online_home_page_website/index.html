@@ -1,0 +1,493 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="png/logo.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <meta name="a business wecbsite" content="@2.saint is the coder">
+    <title>market</title>
+</head>
+<body>
+    <div class="web">
+    <section class="sect-1">
+        <nav class="navigation">
+            <div class="logo">
+                <img src="png/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <div class="nav-btn">
+                    <img src="png/menu.png" alt="">
+                    <div class="nav-links">
+                        <a href="">Home</a>
+                        <a href="#" onclick="noticed()">Trending</a>
+                        <a href="">Projects</a>
+                        <a href="">Markets</a>
+                        <a href="">Business</a>
+                        <a href="">Company</a>
+                        <a href="">Marks</a>
+                        <br>
+                    </div>
+                </div>
+                <a href="">Home</a>
+                <a href="#" onclick="noticed()">Trending</a>
+                <a href="">Projects</a>
+                <a href="">Markets</a>
+                <a href="">Business</a>
+                <a href="">Company</a>
+                <a href="">Marks</a>
+               
+            </div>
+            <div class="search-box">
+                <input type="text" 
+                placeholder="search Products , Marks....."
+                onkeyup="startsearch()" id="mySearch">
+                <div class="seach-id" id="mysearch-box">
+                    <ul id="myMenu">
+                    <li><a href="#tshirts">T-shirts</a></li>
+                    <li><a href="">Shoes</a></li>
+                    <li><a href="">Bags</a></li>
+                    <li><a href="">iPhones</a></li>
+                    <li><a href="">Samsungs</a></li>
+                    <li><a href="">Balanciagas</a></li>
+                    <li><a href="">nike</a></li>
+                    <li><a href="">gucci</a></li>
+                    <li><a href="">Vans</a></li>
+                    <li><a href="">Byciclets</a></li>
+                    <li><a href="">iPods</a></li>
+                    <li><a href="">Jeans</a></li>
+                    <li><a href="">Casks</a></li>
+                    <li><a href="">Headphones</a></li>
+                    <li><a href="">Cars</a></li>
+                </div>
+            </div>
+            <div class="sign-box">
+                <button id="package" onclick="addnewitem()"><abbr title="Products in your packets"><b id="packet-num">0</b> Packets</abbr></button>
+                <button>Login</button>
+                <button>Sign up</button>
+            </div>
+        </nav>
+    </section>
+    <div class="selected" id="selected-items">
+
+<div class="mony-box" id="items-box">
+<div class="num-items">
+    <h2>
+        <b id="prod-num">0</b><br> Items
+    </h2>
+</div>
+<div class="btn-ch">
+    <button onclick="checkprice()">check Price</button>
+</div>
+</div>
+
+
+<div class="mony-box" id="exchange">
+    <div class="num-items" id="ex-img">
+      <img src="png/exchange.png" id="exchange-png" alt="">
+    </div>
+</div>
+
+
+<div class="mony-box">
+    <div class="num-items">
+        <h2>
+            <b id="money-price">0</b>$
+        </h2>
+    </div>
+    <div class="btn-ch">
+        <button>Buy</button>
+    </div>
+</div>
+    </div>
+    <section class="sect-3" id="tshirts">
+        <div class="motivator">
+            <div class="trend-products" id="seletor1">
+                <div class="trend-img">
+                    <p><del>90.00$</del><br><b id="price1">70</b>.00$</p>
+                    <img src="product-img/trend-tshits/t1.jpg" alt="">
+                </div>
+                <div class="pack">
+                    <button id="checked" onclick="getinpacket1()">Put in the Packet</button>
+                </div>
+            </div>
+            <div class="trend-products" id="seletor2">
+                <div class="trend-img">
+                    <p><del>60.00$</del><br><td id="p2">45.00$</td></p>
+                    <img src="product-img/trend-tshits/t2.jpg" alt="">
+                </div>
+                <div class="pack">
+                    <button onclick="getinpacket2()">Put in the Packet</button>
+                </div>
+            </div>
+            <div class="trend-products" id="seletor3">
+                <div class="trend-img">
+                    <p><del>85.00$</del><br><td id="p3">75.00$</td></p>
+                    <img src="product-img/trend-tshits/t3.jpg" alt="">
+                </div>
+                <div class="pack">
+                    <button onclick="getinpacket3()">Put in the Packet</button>
+                </div>
+            </div>
+            <div class="trend-products" id="seletor4">
+                <div class="trend-img">
+                    <p><del>120.00$</del><br><td id="p4">105.00$</td></p>
+                    <img src="product-img/trend-tshits/t4.jpg" alt="">
+                </div>
+                <div class="pack">
+                    <button onclick="getinpacket4()">Put in the Packet</button>
+                </div>
+            </div>
+            <div class="trend-products" id="seletor5">
+                <div class="trend-img">
+                    <p><del>162.00$</del><br><td id="p5">146.00$</td></p>
+                    <img src="product-img/trend-tshits/t5.jpg" alt="">
+                </div>
+                <div class="pack">
+                    <button onclick="getinpacket5()">Put in the Packet</button>
+                </div>
+            </div>
+
+            <div class="trend-products" id="seletor6">
+                <div class="trend-img">
+                    <p><del>162.00$</del><br><td id="p6">140.00$</td></p>
+                    <img src="product-img/trend-tshits/t6.jpg" alt="">
+                </div>
+                <div class="pack">
+                    <button onclick="getinpacket6()">Put in the Packet</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sect-3">
+       <div class="title">
+           <p>
+              <abbr title="the most buyed Products">Most Popular</abbr> 
+           </p>
+       </div>
+       <div class="products-place">
+       <div class="priduct-on-market">
+           <div class="product-interface">
+               <p>36.00$</p>
+               <img src="product-img/pruducts/255937327_627725238255808_1381977747284105506_n.jpg" alt="">
+           </div>
+           <div class="buy-btn-box">
+               <button>Buy</button>
+           </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>40.00$</p>
+            <img src="product-img/pruducts/275558833_1100210917219727_2982203984510998546_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>52.00$</p>
+            <img src="product-img/pruducts/277968529_511003453817398_5114812898744666187_n (1).jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>86.00$</p>
+            <img src="product-img/pruducts/296763424_5618776608180559_5627884920226325890_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>75.00$</p>
+            <img src="product-img/pruducts/308108618_571475964777299_4296227801290269947_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>102.00$</p>
+            <img src="product-img/pruducts/308623799_625824529124479_4321025299190563882_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>25.00$</p>
+            <img src="product-img/pruducts/308637138_987233575483465_5610085959581809769_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>18.00$</p>
+            <img src="product-img/pruducts/308644699_6286882941328742_5771491537217540812_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       
+  
+        <div class="priduct-on-market">
+            <div class="product-interface">
+                <p>105.00$</p>
+                <img src="product-img/pruducts/308841533_414624430786062_8811410056058475074_n.jpg" alt="">
+            </div>
+            <div class="buy-btn-box">
+                <button>Buy</button>
+            </div>
+        </div>
+
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>39.00$</p>
+             <img src="product-img/pruducts/309240450_624559502528272_1032017720041142636_n.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>42.00$</p>
+             <img src="product-img/pruducts/309500909_659588675366554_6537772794115578172_n.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>05.00$</p>
+             <img src="product-img/pruducts/IMG-20220923-WA0035.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>28.00$</p>
+             <img src="product-img/pruducts/IMG-20220923-WA0038.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>06.00$</p>
+             <img src="product-img/pruducts/IMG-20220928-WA0040.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+        
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>90.00$</p>
+             <img src="product-img/pruducts/IMG-20220928-WA0047.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>92.00$</p>
+             <img src="product-img/pruducts/IMG-20220928-WA0048.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+        
+     </div>
+    </section>
+    
+
+
+
+    <section class="sect-3">
+       <div class="title">
+           <p>
+              <abbr title="the most buyed Products">Most Popular shoes</abbr> 
+           </p>
+       </div>
+       <div class="products-place">
+       <div class="priduct-on-market">
+           <div class="product-interface">
+               <p>36.00$</p>
+               <img src="product-img/pruducts/255937327_627725238255808_1381977747284105506_n.jpg" alt="">
+           </div>
+           <div class="buy-btn-box">
+               <button>Buy</button>
+           </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>36.00$</p>
+            <img src="product-img/pruducts/275558833_1100210917219727_2982203984510998546_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>36.00$</p>
+            <img src="product-img/pruducts/277968529_511003453817398_5114812898744666187_n (1).jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>36.00$</p>
+            <img src="product-img/pruducts/296763424_5618776608180559_5627884920226325890_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>36.00$</p>
+            <img src="product-img/pruducts/308108618_571475964777299_4296227801290269947_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>36.00$</p>
+            <img src="product-img/pruducts/308623799_625824529124479_4321025299190563882_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>36.00$</p>
+            <img src="product-img/pruducts/308637138_987233575483465_5610085959581809769_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       <div class="priduct-on-market">
+        <div class="product-interface">
+            <p>36.00$</p>
+            <img src="product-img/pruducts/308644699_6286882941328742_5771491537217540812_n.jpg" alt="">
+        </div>
+        <div class="buy-btn-box">
+            <button>Buy</button>
+        </div>
+       </div>
+       
+  
+        <div class="priduct-on-market">
+            <div class="product-interface">
+                <p>36.00$</p>
+                <img src="product-img/pruducts/308841533_414624430786062_8811410056058475074_n.jpg" alt="">
+            </div>
+            <div class="buy-btn-box">
+                <button>Buy</button>
+            </div>
+        </div>
+
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>36.00$</p>
+             <img src="product-img/pruducts/309240450_624559502528272_1032017720041142636_n.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>36.00$</p>
+             <img src="product-img/pruducts/309500909_659588675366554_6537772794115578172_n.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>36.00$</p>
+             <img src="product-img/pruducts/IMG-20220923-WA0035.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>36.00$</p>
+             <img src="product-img/pruducts/IMG-20220923-WA0038.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>36.00$</p>
+             <img src="product-img/pruducts/IMG-20220928-WA0040.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+        
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>36.00$</p>
+             <img src="product-img/pruducts/IMG-20220928-WA0047.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+        <div class="priduct-on-market">
+         <div class="product-interface">
+             <p>36.00$</p>
+             <img src="product-img/pruducts/IMG-20220928-WA0048.jpg" alt="">
+         </div>
+         <div class="buy-btn-box">
+             <button>Buy</button>
+         </div>
+        </div>
+        
+     </div>
+    </section> 
+</div>
+</body>
+</html>

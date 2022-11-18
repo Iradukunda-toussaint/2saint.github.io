@@ -1,0 +1,367 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sect-1{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to left , 
+    black , 
+    rgba(0, 0, 0, 0.664) , 
+    black),
+    url(galerie/img4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navigation{
+width: 100%;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+align-items: center;
+}
+.sign{
+    position: absolute;
+    right: 20px;
+    height: 30px;
+    border: 0px;
+    background-color: red;
+    color: black;
+    width: 80px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+     Arial,
+      sans-serif;
+}
+.navigation .logo{
+    width: 220px;
+    height: 200px;
+    padding-top: 40px;
+}
+body{
+    background-color: black;
+}
+.content-box{
+    width: 700px;
+    height: 300px;
+    margin: 50px auto 0px auto;
+}
+.content-box h1{
+    font-size: 3.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium',
+     'Arial Narrow',
+      Arial,
+       sans-serif;
+       padding-top: 20px;
+}
+.menu-bar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    text-align: start;
+    align-items: center;
+    display:flex;
+}
+.menu-bar a{
+text-decoration: none;
+color: rgb(255, 0, 0);
+margin-left: 40px;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*******************displaying media querrys menu***********************/
+@media only screen and (max-width : 750px) {
+    .content-box{
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 580px) {
+    .content-box h1{
+        font-size: 3.0rem;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium',
+         'Arial Narrow',
+          Arial,
+           sans-serif;
+           padding-top: 20px;
+    }
+}
+@media only screen and (max-width : 495px) {
+    .menu-bar a{
+        font-size: 17px;
+        margin-left: 20px;
+    }
+}
+.display-login-form-on-top{
+    width: 100%;
+    height: 0vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.767);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    bottom: 0px;
+    overflow: hidden;
+}
+.login-box{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.932);
+    border: 10px;
+}
+.login-box h2{
+    color: red;
+    margin: 30px 30px;
+}
+.login-box p{
+ margin: 30px 60px;
+ color: white;
+ font-size: 17px;
+}
+.login-box p a{
+    color: red;
+}
+.login-box input[type="text"]{
+    display: flex;
+    margin: 30px 60px;
+    width: 230px;
+    height: 40px;
+    background: transparent;
+    border: solid 1px red;
+    border-radius: 5px;
+    padding: 0px 15px;
+    outline: none;
+    color: white;
+}
+.login-box input[type="password"]{
+    display: flex;
+    margin: 30px 60px;
+    width: 230px;
+    height: 40px;
+    background: transparent;
+    border: solid 1px red;
+    border-radius: 5px;
+    padding: 0px 15px;
+    outline: none;
+    color: white;
+}
+.login-box input[type="submit"]{
+    margin: 0px 60px;
+    width: 230px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+    font-size: 17px;
+}
+.close{
+    width: 25px;
+    height: 25px;
+    border: 0px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.close img{
+    width: 15px;
+    height: 15px;
+}
+/**********************************menu**************/
+.sect-2{
+    width: 100%;
+    height: 2100px;
+    background-image: linear-gradient(to top , 
+    black , 
+    rgba(0, 0, 0, 0.664) , 
+    black),
+    url(galerie/soul.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    align-items: center;
+        justify-content: center; 
+}
+.trend-movie{
+    width: 250px;
+    height: 450px;
+    cursor: pointer;
+    display: grid;
+    transition: 0.5s;
+}
+.trend-movie:hover{
+    transform: scale(1.1 , 1.1);
+}
+.trend-movie .cover{
+    width: 100%;
+    height: 350px;
+}
+.info p{
+text-align: center;
+font-weight: 900;
+color: rgba(255, 255, 255, 0.945);
+}
+.info .download{
+    width: 90%;
+    margin-left: 5%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: black;
+    color: red;
+    font-weight: 900;
+    border: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+@media only screen and (max-width : 1200px) {
+    .sect-2{
+        grid-gap: 20px; 
+    }
+}
+@media only screen and (max-width : 1100px) {
+    .trend-movie{
+        width: 200px;
+        height: 400px;
+    } 
+    .trend-movie .cover{
+        width: 100%;
+        height: 270px;
+    }
+    .sect-2{
+     height: 1800px; 
+    }
+}
+@media only screen and (max-width : 900px) {
+    .sect-2{
+        grid-template-columns: auto auto auto auto;
+    }
+    .trend-movie{
+        width: 150px;
+        height: 360px;
+    } 
+    .trend-movie .cover{
+        width: 100%;
+        height: 200px;
+    }
+    .sect-2{
+        grid-gap: 10px;
+        height: 1550px; 
+    }
+}
+@media only screen and (max-width : 700px) {
+    .trend-movie{
+        width: 130px;
+        height: 250px;
+    } 
+    .trend-movie .cover{
+        width: 100%;
+        height: 170px;
+    }
+    .sect-2{
+        grid-gap: 10px;
+        height: 1150px; 
+    }
+    .info .download{
+        font-size: 12px;
+        font-weight: 900;
+        margin: 0px;
+        width: 100%;
+    }
+    .info p{
+        font-weight: 900; 
+        font-size: 13px; 
+    }
+}
+@media only screen and (max-width : 600px) {
+    .trend-movie{
+        width: 100px;
+        height: 210px;
+    } 
+    .trend-movie .cover{
+        width: 100%;
+        height: 130px;
+    }
+    .sect-2{
+        grid-gap: 10px;
+        height: 1000px; 
+    }
+    .info p{
+        font-weight: 200; 
+        font-size: 10px; 
+    }
+}
+body::-webkit-scrollbar{
+    border: 0px;
+    background-color: transparent;
+    width: 5px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.columns{
+    height: 300px;
+    color: white;
+    text-align: center;
+    
+}
+.columns > a{
+    color: rgba(255, 255, 255, 0.397);
+    text-decoration: none;
+    display: flex;
+    margin-top: 17px;
+    transition: 0.5s;
+    font-family: 'Franklin Gothic Medium',
+     'Arial Narrow',
+      Arial,
+       sans-serif;
+}
+.columns > a:hover{
+color: white;
+transform: scale(1.1 , 1);
+}
+.columns > h2{
+    color: rgba(255, 255, 255, 0.788);
+}
+@media only screen and (max-width : 699px) {
+    .footer{
+        grid-gap: 30px;
+    }
+}
+@media only screen and (max-width : 485px) {
+    .footer{
+        grid-gap: 20px;
+    }
+}
+
+
